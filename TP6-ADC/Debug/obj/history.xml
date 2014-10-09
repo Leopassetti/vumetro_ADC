@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F401VC -DSTM32F4XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -ID:\LEANDRO\Documents\DIPLOMATURA SE\Proyectos\TP6-ADC -ID:\LEANDRO\Documents\DIPLOMATURA SE\Proyectos\TP6-ADC\cmsis_boot -ID:\LEANDRO\Documents\DIPLOMATURA SE\Proyectos\TP6-ADC\cmsis_lib -ID:\LEANDRO\Documents\DIPLOMATURA SE\Proyectos\TP6-ADC\cmsis_lib\include -ID:\LEANDRO\Documents\DIPLOMATURA SE\Proyectos\TP6-ADC\cmsis -ID:\LEANDRO\Documents\DIPLOMATURA SE\Proyectos -ID:\LEANDRO\Documents\DIPLOMATURA SE\Proyectos\TP6-ADC\bsp">
+      <target file="stm32f4xx_gpio.o" lastModified="148f5802f9a">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="148f5291756"/>
+      </target>
+      <target file="stm32f4xx_adc.o" lastModified="148f5802f30">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_adc.c" lastModified="148f5292b96"/>
+      </target>
+      <target file="system_stm32f4xx.o" lastModified="148f5802ff9">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="148f529063d"/>
+      </target>
+      <target file="startup_stm32f4xx.o" lastModified="148f5802de0">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="148f5290638"/>
+      </target>
+      <target file="stm32f4xx_syscfg.o" lastModified="148f5802d9d">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_syscfg.c" lastModified="148f5299d88"/>
+      </target>
+      <target file="main.o" lastModified="148f5802e25">
+         <source file="..\..\..\main.c" lastModified="148f5800ac2"/>
+      </target>
+      <target file="stm32f4xx_rcc.o" lastModified="148f5802eb1">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="148f529062e"/>
+      </target>
+      <target file="misc.o" lastModified="148f58030b5">
+         <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="148f5298a38"/>
+      </target>
+      <target file="bsp.o" lastModified="148f5803057">
+         <source file="..\..\..\bsp\bsp.c" lastModified="148f57809fe"/>
+      </target>
+   </processor>
+</history>
